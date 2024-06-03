@@ -1,0 +1,103 @@
+/*RESET*/
+html,
+body,
+div,
+ul,
+dl,
+dt,
+dd,
+ol,
+ul,
+li {
+  box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: inside;
+  padding-left: 25px;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*MAIN*/
+
+a {
+  color: rgb(162, 211, 253);
+}
+
+body {
+  font-size: 1em;
+  line-height: 1em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background: #cc3333;
+  background-image: url(./img/bg.jpg);
+  background-repeat: repeat;
+  color: #eeeeee;
+}
+
+.content {
+  margin: 16px auto;
+  padding: 16px 32px;
+  width: 80%;
+  height: fit-content;
+  background: #222222dd;
+  border-radius: 15px;
+}
+
+.header {
+  margin: 16px;
+  margin-bottom: 32px;
+  font-size: 24pt;
+  font-weight: bold;
+  text-align: center;
+  line-height: 2em;
+}
+
+.list {
+	text-align: justify;
+	font-size: 14pt;
+	line-height: normal;
+	margin: 16px;
+	padding: 32px;
+}
+
+.list ul {
+	line-height: 1.2em;
+}
+
+li {
+	text-align: left;
+}
